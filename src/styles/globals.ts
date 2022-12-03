@@ -12,14 +12,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body{
-    font-family: "Roboto", sans-serif;
-    background: #061221;
+    font-family: 'Kanit', sans-serif;
+    background: #1D1D22;
     color: white;
   }
 
   input, textarea, select, button{
     font: 400 1rem "Roboto", sans-serif;
   }
+
+textarea:focus, input:focus{
+  outline: none;
+}
 
   button{
     cursor: pointer;
