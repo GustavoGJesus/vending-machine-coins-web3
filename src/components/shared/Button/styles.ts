@@ -7,9 +7,9 @@ export const ButtonComponent = styled.button<ButtonProps>`
   border: none;
   border-radius: 30px;
   background-color: ${(props) =>
-    (props.variant === "primary" && "#061221") ||
+    (props.variant === "primary" && "#2E8E99") ||
     (props.variant === "secondary" && "#133364")};
-  color: #fff;
+  color: #2e2d42;
   cursor: pointer;
   font-weight: bold;
   font-size: 19px;
