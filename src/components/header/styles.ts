@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const HeaderWrapper = styled.nav`
   width: 100%;
   padding: 05px 50px 05px 50px;
-  background: #133364;
-  border-bottom: 1px solid #a4a5a6;
+  background: #27262c;
 `;
 
 export const HeaderWrapperContent = styled.div`
@@ -14,5 +13,5 @@ export const HeaderWrapperContent = styled.div`
 `;
 
 export const Logo = styled.img`
-    width: 125px;
+    width: 110px;
 `;
