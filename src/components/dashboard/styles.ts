@@ -40,5 +40,11 @@ export const Input = styled.input`
   margin-top: 30px;
   margin-bottom: 20px;
   background: #1d1d22;
-  color: #FFF;
+  color: #fff;
+
+  ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+  }
 `;

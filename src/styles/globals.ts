@@ -18,7 +18,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   input, textarea, select, button{
-    font: 400 1rem "Roboto", sans-serif;
+    font: 400 1.2rem 'Kanit', sans-serif;
   }
 
 textarea:focus, input:focus{

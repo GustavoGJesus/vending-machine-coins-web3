@@ -31,7 +31,7 @@ export function Dashboard() {
             My coins: <Span>5</Span>
           </DescriptionDashboard>
           <DescriptionDashboard style={{marginTop: "50px", marginBottom: "-12px"}}>Buy coins</DescriptionDashboard>
-          <Input type="text" />
+          <Input type="number" />
           <Button variant="primary">Buy</Button>
         </div>
       </DashboardWrapperContent>
