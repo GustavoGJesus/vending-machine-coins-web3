@@ -1,9 +1,10 @@
-import { ReactNode } from "react";
+import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from "react";
 import { ButtonComponent } from "./styles"
 
 export interface ButtonProps {
-  children: ReactNode;
   variant: "primary" | "secondary";
+  children: ReactNode;
+  onClick: () => void
 }
 
 export function Button({ children, ...props }: ButtonProps) {
