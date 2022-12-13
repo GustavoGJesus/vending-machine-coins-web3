@@ -13,5 +13,5 @@ export const HeaderWrapperContent = styled.div`
 `;
 
 export const Logo = styled.img`
-    width: 110px;
+    width: 90px;
 `;
